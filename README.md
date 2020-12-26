@@ -4,7 +4,6 @@
 
 <font size="5">[Live Demo](https://paulmure.github.io/google-homepage/)</font>
 
-<br />
 First web project!
 
 Built with plain HTML/CSS.
