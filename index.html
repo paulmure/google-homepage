@@ -9,36 +9,32 @@
 </head>
 <body>
     <header>
-        <div id="top_nav">
-            <nav class="flex_around left">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#store">Store</a></li>
-                </ul>
-            </nav>
-            <nav class="flex_around right">
-                <ul>
-                    <li><a href="#gmail">Gmail</a></li>
-                    <li><a href="#images">Images</a></li>
-                    <li>
-                        <a href="#google_apps">
-                            <svg id="google_apps" viewBox="0 0 8 8">
-                                <rect x="0" y="0" width="2" height="2" />
-                                <rect x="3" y="0" width="2" height="2" />
-                                <rect x="6" y="0" width="2" height="2" />
-                                <rect x="0" y="3" width="2" height="2" />
-                                <rect x="3" y="3" width="2" height="2" />
-                                <rect x="6" y="3" width="2" height="2" />
-                                <rect x="0" y="6" width="2" height="2" />
-                                <rect x="3" y="6" width="2" height="2" />
-                                <rect x="6" y="6" width="2" height="2" />
-                            </svg>
-                        </a>
-                    </li>
-                    <li><a href="#sign_in" id="sign_in">Sign in</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="flex_between smaller_font">
+            <ul class="relative top_nav left_nav flex_between" id="top_left">
+                <li><a class="nav_item" href="#about">About</a></li>
+                <li><a class="nav_item" href="#store">Store</a></li>
+            </ul>
+            <ul class="relative top_nav right_nav flex_between" id="top_right">
+                <li><a class="nav_item" href="#gmail">Gmail</a></li>
+                <li><a class="nav_item" href="#images">Images</a></li>
+                <li>
+                    <a class="nav_item" href="#google_apps">
+                        <svg id="google_apps" viewBox="0 0 8 8">
+                            <rect x="0" y="0" width="2" height="2" />
+                            <rect x="3" y="0" width="2" height="2" />
+                            <rect x="6" y="0" width="2" height="2" />
+                            <rect x="0" y="3" width="2" height="2" />
+                            <rect x="3" y="3" width="2" height="2" />
+                            <rect x="6" y="3" width="2" height="2" />
+                            <rect x="0" y="6" width="2" height="2" />
+                            <rect x="3" y="6" width="2" height="2" />
+                            <rect x="6" y="6" width="2" height="2" />
+                        </svg>
+                    </a>
+                </li>
+                <li><a class="nav_item" id="sign_in" href="#sign_in">Sign in</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div>
@@ -59,22 +55,18 @@
         </div>
     </main>
     <footer>
-        <div id="bottom_nav">
-            <nav class="flex_around left">
-                <ul>
-                    <li><a href="#advertising">Advertising</a></li>
-                    <li><a href="#business">Business</a></li>
-                    <li><a href="#how_search_works">How Search works</a></li>
-                </ul>
-            </nav>
-            <nav class="flex_around right">
-                <ul>
-                    <li><a href="#privacy">Privacy</a></li>
-                    <li><a href="#terms">Terms</a></li>
-                    <li><a href="#settings">Settings</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="flex_between x-smaller_font">
+            <ul class="relative bottom_nav left_nav flex_between" id="bot_left">
+                <li><a class="nav_item" href="#advertising">Advertising</a></li>
+                <li><a class="nav_item" href="#business">Business</a></li>
+                <li><a class="nav_item" href="#how_search_works">How Search works</a></li>
+            </ul>
+            <ul class="relative bottom_nav right_nav flex_between" id="bot_right">
+                <li><a class="nav_item" href="#privacy">Privacy</a></li>
+                <li><a class="nav_item" href="#terms">Terms</a></li>
+                <li><a class="nav_item" href="#settings">Settings</a></li>
+            </ul>
+        </nav>
     </footer>
 </body>
 </html>
